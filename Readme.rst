@@ -89,3 +89,99 @@ clone 项目到本地::
 
 - freezing.rst                     0%
 - packaging.rst                    0%
+
+
+***English Translation***
+
+
+Python roaming guide!
+================
+
+**This project fork is updated from https://github.com/kennethreitz/python-guide and the project is updated simultaneously**
+
+**If you are interested in participating in the translation of this book. Please contact leeway1985@gmail.com**
+
+How to generate local reading version
+~~~~~~~~~~~~~~~~~~~
+
+Install sphinx::
+
+    $ sudo apt-get install python-sphinx
+
+Clone the project to the local::
+
+    $ git clone git://github.com/pylemon/python-guide-cn.git
+
+Compile html::
+
+    $ cd python-guide-cn && make
+
+After execution, the html static file of the project will be generated in the python-guide-cn/docs/_build/html/ directory. Open it in the browser to read it.
+
+
+**Python Best Practice Guide**
+
+-----------
+
+**The project is in progress. If you are willing to help, please contact us. There is a lot of work looking forward to your joining to complete it together.**
+
+This guide is being intensively created. This *self-righteous* guide exists, and at the same time provides novice and senior Python developers with a best practice manual for installation, configuration and daily use of Python.
+
+Contains themes:
+
+-Platform/Version Installation Instructions
+-Py2app, Py2exe, bbfreeze, pyInstaller
+-Pip / virtualenv
+-Documentation. How to write documentation.
+-Server configuration/tools and web framework
+-fabric
+-Grouped by theme/purpose Detailed module recommendation
+-Test. Jenkins + tox use.
+-How to interface w/ hg from git easily
+-What library is used for what
+
+
+Translation progress
+--------
+
+-index.rst 100%
+
+**starting**
+
+- linux.rst                      100%
+- osx.rst                          0%
+- win.rst                          0%
+- installation.rst                 0%
+- which-python.rst                 0%
+
+**intro**
+
+- community.rst                    0%
+- documentation.rst                0%
+- duction.rst                      0%
+- learning.rst                     0%
+- news.rst                         0%
+
+**notes**
+
+- contribute.rst                   0%
+- license.rst                      0%
+- styleguide.rst                   0%
+
+**scenarios**
+
+- admin.rst                        0%
+- ci.rst                           0%
+- client.rst                       0%
+- cli.rst                          0%
+- db.rst                           0%
+- gui.rst                          0%
+- imaging.rst                      0%
+- scientific.rst                   0%
+- speed.rst                        0%
+- web.rst                          0%
+
+**shipping**
+
+- freezing.rst                     0%
+- packaging.rst                    0%
